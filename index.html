@@ -185,7 +185,24 @@
 		<script src="js/flickity.pkgd.js"></script>
 
 		<script>
-			
+			$('.main-carousel').flickity({				
+			  // options
+			  cellAlign: 'center',
+			  contain: true,
+			  groupCells: true,
+			  freeScroll: false,
+			  wrapAround: true,
+			  groupCells: 1,
+			  // groupCells: '100%',
+			 //autoPlay: true,
+			 // autoPlay: 1500,
+			 pauseAutoPlayOnHover: false,
+			 initialIndex: 0,
+			 wrapAround: true,
+			 prevNextButtons: false,
+			 pageDots: true
+
+			});
 		</script>
 </body>
 </html>
