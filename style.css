@@ -484,3 +484,488 @@ https://flickity.metafizzy.co
     background: #005db6;
   }
   
+  @media screen and (min-width:  768px) {
+
+
+
+    .header-area {
+        padding: 7px 15px 5px;
+        background: #00529d;
+    }
+    
+    .header-item {
+        max-width: 1370px;
+        margin: 0 auto;
+    }
+    
+    .header-item img {
+        max-width: 100%;
+    }
+    
+    /*=== banner area start ===*/
+    
+    .banner-area {
+        display: block;
+        padding: 85px 0 110px;
+    }
+    
+    .banner-area2 {
+        display: none;
+    }
+    
+    .banner-item {
+        max-width: 1210px;
+        margin: 0 auto;
+    }
+    
+    .banner-item-inner {
+        max-width: 400px;
+        margin-left: auto;
+    }
+    
+    .banner-item img {
+        width: 100%;
+        display: block;
+        margin-bottom: 14px;
+    }
+    
+    .banner-item-inner h2 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #154063;
+        margin: 0 0 30px;
+        text-align: center;
+        letter-spacing: 6px;
+    }
+    
+    .banner-item-inner h2 span {
+        font-family: 'Cinzel', serif;
+        display: block;
+        font-size: 106px;
+        color: #8c7c5c;
+        line-height: 80%;
+    }
+    
+    .banner-item-inner > span {
+        max-width: 130px;
+        height: 2px;
+        background: #b8b29e;
+        display: block;
+        margin: 0 auto 30px;
+    }
+    
+    .banner-item-inner p {
+        font-family: 'Cinzel', serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #154063;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .banner-item-inner p span {
+        display: block;
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        display: block;
+    }
+    
+    /*=== make area start ===*/
+    
+    .make-area-inner {
+        display: flex;
+        justify-content: space-between;
+        display: -ms-flexbox;
+        display: -webkit-flexbox;
+        display: -moz-flexbox;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 1160px;
+        padding: 0 15px;
+        margin: 0 auto;
+        padding-bottom: 65px;
+        position: relative;
+    }
+    
+    .make-area-inner:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 15px;
+        width: 355px;
+        height: 100%;
+        background: #0055a4;
+        z-index: -1;
+    }
+    
+    .make-item {
+        flex: 0 0 calc(100% - 400px);
+        max-width: calc(100% - 400px);
+        padding-top: 35px;
+    }
+    
+    .make-item-section {
+        padding-right: 55px;
+    }
+    
+    .make-item-inner {
+        padding-left: 65px;
+    }
+    
+    .make-item-inner h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #8c7c5c;
+        margin: 0 0 12px;
+        text-transform: uppercase;
+    }
+    
+    .make-item-inner p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #00000a;
+        margin: 0 0 65px;
+    }
+    
+    .video-section {
+        display: flex;
+        margin-bottom: 80px;
+    }
+    
+    .content-video {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .content-video video {
+        width: 100%;
+        display: block;
+    }
+    
+    .part-content {
+        padding: 12px 36px 14px;
+        background: #004a8b;
+        min-height: 150px;
+    }
+    
+    .content-video h2 {
+        font-size: 27px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 8px;
+    }
+    
+    .content-video p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #d4d4d4;
+        margin: 0;
+    }
+    
+    .make-item-inner5 {
+        background: #005db6;
+    }
+    
+    .item-content {
+        display: flex;
+        display: -ms-flexbox;
+        margin-bottom: 18px;
+    }
+    
+    .content-article {
+        width: 70px;
+        flex: 0 0 70px;
+        padding-right: 10px;
+    }
+    
+    .content-article img {
+        max-width: 100%;
+    }
+    
+    .item-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #004a8b;
+        text-transform: uppercase;
+        margin: 0 0 7px;
+    }
+    
+    .item-content p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #00000a;
+        margin: 0 0 8px;
+    }
+    
+    .item-content p span {
+        font-weight: 700;
+    }
+    
+    .item-content p.for-bullet {
+        padding-left: 11px;
+        position: relative;
+    }
+    
+    .item-content p.for-bullet:after {
+        content: '';
+        position: absolute;
+        top: 6px;
+        left: 0;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #00000a;
+    }
+    
+    .item-content a {
+        font-size: 18px;
+        font-weight: 700;
+        color: #005db6;
+        display: flex;
+        display: -ms-flexbox;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #006699;
+        background: transparent;
+        border-radius: 20px;
+        margin-top: 6px;
+        transition: 0.2s all ease;
+        -webkit-transition: 0.2s all ease;
+        -moz-transition: 0.2s all ease;
+    }
+    
+    .item-content a:hover {
+        opacity: .8;
+    }
+    
+    .testimonial-area {
+        margin-left: -30px;
+    }
+    
+    .main-carousel {
+        padding-top: 45px;
+        cursor: default;
+    }
+    
+    .carousel-cell {
+        width: 100%;
+        padding-top: 55px;
+        cursor: default;
+    }
+    
+    .carousel-cell div {
+        width: 100%;
+        display: block;
+        height: 1px;
+        background: #eee;
+    }
+    
+    .carousel-cell img {
+        position: absolute;
+        max-width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .carousel-cell h2 {
+        font-family: 'Cinzel', serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: #8c7c5c;
+        text-align: center;
+        margin: 60px 0 8px;
+        text-transform: uppercase;
+    }
+    
+    .carousel-cell p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #005db6;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    .carousel-cell p span {
+        display: block;
+        font-size: 21px;
+    }
+    
+    /*! Flickity v2.2.0
+    https://flickity.metafizzy.co
+    ---------------------------------------------- */
+    
+    .flickity-enabled {
+      position: relative;
+    }
+    
+    .flickity-enabled:focus { outline: none; }
+    
+    .flickity-viewport {
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
+    
+    .flickity-slider {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* draggable */
+    
+    .flickity-enabled.is-draggable {
+      -webkit-tap-highlight-color: transparent;
+              tap-highlight-color: transparent;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    }
+    
+    .flickity-enabled.is-draggable .flickity-viewport {
+      cursor: move;
+      cursor: -webkit-grab;
+      cursor: grab;
+    }
+    
+    .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+    }
+    
+    /* ---- page dots ---- */
+    
+    .flickity-page-dots {
+      width: 100%;
+      bottom: 0;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      line-height: 1;
+      margin-top: 20px;
+    }
+    
+    .flickity-rtl .flickity-page-dots { direction: rtl; }
+    
+    .flickity-page-dots .dot {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin: 0 6px;
+      background: #e8e9e9;
+      border-radius: 50%;
+      opacity: 1;
+      cursor: pointer;
+      position: relative;
+      border: 5.5px solid #e8e9e9;
+    }
+    
+    .flickity-page-dots .dot.is-selected {
+      background: #005db6;
+    }
+    
+    .copyright-area p {
+        font-size: 10px;
+        font-weight: 400;
+        color: #00000a;
+        margin: 85px 0 0;
+    }
+    
+    .form-section {
+        flex: 355px;
+        max-width: 355px;
+        background: #0054a1;
+        z-index: 999999999;
+        transform: translateY(-30px);
+    }
+    
+    .form-section {
+        padding: 30px 40px;
+    }
+    
+    .form-section h2 {
+        font-family: 'Cinzel', serif;
+        font-size: 34px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    .form-section h2 span {
+        display: block;
+        font-size: 26px;
+        color: #88b8d5;
+    }
+    
+    .form-section img {
+        max-width: 100%;
+        display: block;
+        margin: 14px auto 25px;
+    }
+    
+    .form-section form label {
+        font-size: 14px;
+        font-weight: 700;
+        color: #88b8d5;
+        display: block;
+        margin: 0 0 7px;
+    }
+    
+    .form-section form input {
+        font-size: 14px;
+        font-weight: 700;
+        color: #88b8d5;
+        display: flex;
+        display: -ms-flexbox;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        border: none;
+        background: #ffffff;
+        border-radius: 4px;
+        padding: 0 20px;
+        margin: 0 0 12px;
+    }
+    
+    .form-section form button {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: #f6b344;
+        border-radius: 4px;
+        width: 210px;
+        height: 48px;
+        margin: 20px auto;
+        cursor: pointer;
+        transition: 0.2s all ease;
+        -webkit-transition: 0.2s all ease;
+        -moz-transition: 0.2s all ease;
+    }
+    
+    .form-section form button:hover {
+        opacity: .8;
+    }
+    
+    .form-section p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+    }
+
+}
