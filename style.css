@@ -967,5 +967,149 @@ https://flickity.metafizzy.co
         text-align: center;
         margin: 0;
     }
+}
 
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .banner-item-inner h2 {
+        font-size: 23px;
+    }
+    
+    .banner-item-inner h2 span {
+        font-size: 94px;
+    }
+    
+    .banner-item-inner > span {
+        max-width: 120px;
+    }
+    
+    .banner-item-inner p {
+        font-size: 23px;
+    }
+    
+    .make-item-section {
+        padding-right: 35px;
+    }
+    
+    .make-item-inner {
+        padding-left: 35px;
+    }
+    
+    .part-content {
+        padding: 12px 16px 14px;
+    }
+    
+    .testimonial-area {
+        margin-left: 0;
+    }
+    
+    .carousel-cell h2 {
+        font-size: 28px;
+    }
+    
+    .flickity-page-dots {
+      margin-top: 0px;
+    }
+    
+    .make-area-inner {
+        display: flex;
+        flex-direction: row;
+    }
+}
+    
+    /*
+    ====================================
+    Small Screen - Tablate
+    ====================================
+    */
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .banner-area {
+        padding: 20px 0 20px;
+    }
+    
+    .banner-item {
+        max-width: 688px;
+    }
+    
+    .banner-item-inner h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    
+    .banner-item-inner h2 span {
+        font-size: 88px;
+    }
+    
+    .banner-item-inner > span {
+        max-width: 105px;
+        margin-bottom: 25px;
+    }
+    
+    .banner-item-inner p {
+        font-size: 20px;
+    }
+    
+    .make-area-inner {
+        flex-direction: column-reverse;
+        padding: 0 35px 25px;
+        flex-wrap: wrap;
+    }
+    
+    .make-area-inner:after {
+        display: none;
+    }
+    
+    .make-item {
+        flex: 100%;
+        max-width: 100%;
+        padding-top: 70px;
+    }
+    
+    .form-section {
+        flex: 100%;
+        max-width: 100%;
+        padding: 25px 0 50px;
+        transform: translate(0);
+    }
+    
+    .form-section-inner {
+        max-width: 270px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    
+    .form-section h2 {
+        font-size: 34px;
+    }
+    
+    .form-section h2 span {
+        display: none;
+    }
+    
+    .make-item-section {
+        padding-right: 0;
+    }
+    
+    .make-item-inner {
+        padding-left: 0;
+    }
+    
+    .make-item-inner p {
+        margin: 0 0 50px;
+    }
+    
+    .item-content a {
+        display: none;
+    }
+    
+    .main-carousel {
+        padding-top: 10px;
+    }
+    
 }
