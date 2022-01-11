@@ -203,6 +203,51 @@
 			 pageDots: true
 
 			});
+
+			//Event of Form Button When Submit Execute
+			$("#myForm").on("submit", function (event) {
+				event.preventDefault();
+				//Ajax Call
+				$.ajax({
+					type: "POST",
+					url: "request.php",
+					data: $('#myForm').serialize(),
+					success: function(result) {
+						if(result == "Email") {
+							$("#email").css("border", "3px solid red");
+							return false;
+						} else {
+							$("#email").css("border", "none");	
+						}
+
+						if(result == "Phone") {
+							$("#phone").css("border", "3px solid red");
+							return false;
+						} else {
+							$("#phone").css("border", "none");	
+						}
+
+						var postedData = result.split("~");
+						$("#postedfName").text(postedData[0]);
+						$("#postedlName").text(postedData[1]);
+						$("#postedemail").text(postedData[2]);
+						$("#postedphone").text(postedData[3]);
+
+
+						$("#myForm").css("display", "none");
+						$("#postedData").css("display", "block");
+
+					},
+					error: function(result) {
+						alert('error');
+					}
+				});
+			});
+			
 		</script>
+
+		<!-- Scroll-Top button -->
+		<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
 </body>
 </html>
